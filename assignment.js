@@ -1,21 +1,13 @@
- //feetToMile
- function feetToMile (feet) {
-    var mile = feet/5280;
-    return mile;
-}
-var mhFeet = feetToMile (105600);
-console.log(mhFeet);
-
-//woodCalculator
-function woodCalculator (chair, table, bed){
-    var chairWood = chair * 1;
-    var tableWood = table * 3;
-    var bedWood = bed * 5;
-    var totalWood = chairWood + tableWood + bedWood;
-    return totalWood;
-}
-var woodResult = woodCalculator(50, 20, 10);
-console.log(woodResult);
-
 //brickCalculator
-//tinyCalculator
+function brickCalculator (tenFloor,twentyFloor,thirtyFloor){
+    var tenFloor = 10 * 15 * 1000;
+    var twentyFloor = 10 * 12 * 1000;
+    var thirtyFloor = 10 * 10 * 1000;
+    var totalBrick = tenFloor + twentyFloor + thirtyFloor;
+    return totalBrick;
+}
+var brickResult = brickCalculator(30);
+console.log(brickResult);
+ 
+ 
+ 
